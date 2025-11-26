@@ -1,0 +1,7 @@
+.main-button{
+    align-items: center;
+    background-color: rgb(255, 210, 77);
+    font-family: Cinzel, serif;
+    border-radius: 10px;
+    width: 150px;
+}

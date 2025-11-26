@@ -1,0 +1,67 @@
+
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+main{
+  padding-top: 50px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+h1{
+  padding-bottom: 20px;
+  font-family: "Cinzel", serif;
+  color: rgb(255, 210, 77);
+  font-weight: 450;
+  font-size: 3rem;              
+  letter-spacing: 0.015em;
+  /*text-transform: uppercase;*/
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background:rgb(255, 210, 77); /*linear-gradient(180deg, #ffe89a 0%, #ffd24d 40%, #e4a622 100%);*/
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+
+  text-shadow:
+    /*0 0 6px rgba(255, 223, 120, 0.1),*/
+    0 0 14px rgba(255, 210, 77, 0.2),
+    0 0 50px rgba(255, 210, 77, 0.2),
+    0 0 70px rgba(255, 210, 77, 1);
+  
+}
+
+h3{
+  color: hsl(45 40% 65%);
+}
+.main-form{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+  @media screen and (max-width: 650px) {
+    .content {
+      flex-direction: column;
+      width: max-content;
+    }
+
+    .divider {
+      height: 1px;
+      width: 100%;
+      background: var(--red-to-pink-to-purple-horizontal-gradient);
+      margin-block: 1.5rem;
+    }
+  }

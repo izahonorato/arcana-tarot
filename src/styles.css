@@ -1,1 +1,18 @@
-/* You can add global styles to this file, and also import other style files */
+/* RESET TOTAL DOS ESTILOS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    height: 100%;
+    background-color: hsl(225 30% 12%);
+}
+
+body {
+    height: 100%;
+    /*background-color: rgb(36, 43, 66);*/
+    line-height: 1;
+}
