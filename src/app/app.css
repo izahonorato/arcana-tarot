@@ -9,11 +9,15 @@
 
 
 main{
-  padding-top: 50px;;
+    padding-top: 50px;;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;    
+}
+
+.content{
+  max-width: 560px;
 }
 
 h1{
@@ -47,7 +51,10 @@ h3{
   font-size: x-large;
 }
 .main-form{
+    padding-left: 0px;
+    padding-right: 0px;
     padding-top: 40px;
+    margin: 0;
     display:flex;
     justify-content:center;
     flex-direction: column;
@@ -60,6 +67,11 @@ textarea{
   border: 3px solid rgb(255, 210, 77);
   background-color: transparent;
   color: hsl(45 40% 65%);
+  margin: 30px;
+}
+
+app-main-button{
+  width: 100%;
 }
 
 
