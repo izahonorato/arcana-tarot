@@ -7,12 +7,8 @@
     <h1>Arcana Tarot</h1>
     <h3>Consulte as cartas e descubra os mistérios do seu caminho...</h3>
     <form class="main-form">
-      <input
-        class="input-text"
-        type="text"
-        placeholder="Faça sua pergunta..."
-        name="pergunta"
-        required>
+        <textarea placeholder="Faça sua pergunta..." id="pergunta" name="pergunta" rows="9" cols="70">
+        </textarea>
       <app-main-button
         [descBotao]="'REVELAR CARTAS'">
       </app-main-button>
