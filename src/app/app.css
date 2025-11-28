@@ -64,10 +64,13 @@ h3{
 textarea{
   border-radius: 10px;
   padding: 15px;
-  border: 3px solid rgb(255, 210, 77);
+  border: 2px solid rgba(255, 215, 0, 0.4);
   background-color: transparent;
   color: hsl(45 40% 65%);
   margin: 30px;
+  font-size: 18px;
+  outline: none;
+  resize: none;
 }
 
 app-main-button{
