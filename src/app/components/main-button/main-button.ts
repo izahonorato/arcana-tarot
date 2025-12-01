@@ -8,5 +8,6 @@ import { Component, Input } from '@angular/core';
 })
 export class MainButton {
   @Input() descBotao: string = '';
+  @Input() disabled: boolean = false;
 
 }

@@ -71,6 +71,10 @@ textarea{
   font-size: 18px;
   outline: none;
   resize: none;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  transition: height 0.2s ease;
 }
 
 app-main-button{

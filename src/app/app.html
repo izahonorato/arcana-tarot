@@ -2,15 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 </style>
 
+
 <main class="main">
   <div class="content">
     <h1>Arcana Tarot</h1>
     <h3>Consulte as cartas e descubra os mistérios do seu caminho...</h3>
     <form class="main-form">
-        <textarea placeholder="Faça sua pergunta..." id="pergunta" name="pergunta" rows="9" cols="70">
-        </textarea>
+        <textarea placeholder="Faça sua pergunta..." id="pergunta" name="pergunta" rows="9" cols="70" (input)="verificarPergunta($event)" (input)="autoResize($event)"></textarea>
       <app-main-button
-        [descBotao]="'Revelar as cartas'">
+        [descBotao]="'Revelar as cartas'"
+        [disabled]="botaoDesativado">
       </app-main-button>
     </form>
   </div>
