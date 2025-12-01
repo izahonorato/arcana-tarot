@@ -11,7 +11,8 @@
         <textarea placeholder="Faça sua pergunta..." id="pergunta" name="pergunta" rows="9" cols="70" (input)="verificarPergunta($event)" (input)="autoResize($event)"></textarea>
       <app-main-button
         [descBotao]="'Revelar as cartas'"
-        [disabled]="botaoDesativado">
+        [disabled]="botaoDesativado"
+        (clicked)="revelarCartas()">
       </app-main-button>
     </form>
   </div>
