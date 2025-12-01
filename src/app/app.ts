@@ -25,5 +25,9 @@ export class App {
   textarea.style.height = "auto";           // reseta altura
   textarea.style.height = textarea.scrollHeight + "px";  // ajusta à altura real
 }
+
+  revelarCartas() {
+    console.log("Botão foi clicado!");
+}
 }
 
