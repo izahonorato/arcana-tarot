@@ -1,12 +1,12 @@
 import { Component, signal, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MainButton } from "./components/main-button/main-button";
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
 import { TarotService } from './services/tarotAPI.services';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, MainButton, HttpClientModule],
+  imports: [RouterOutlet, MainButton],
   templateUrl: './app.html',
   styleUrl: './app.css'
 
