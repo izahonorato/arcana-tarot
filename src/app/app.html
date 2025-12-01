@@ -8,9 +8,9 @@
     <h1>Arcana Tarot</h1>
     <h3>Consulte as cartas e descubra os mistérios do seu caminho...</h3>
     <form class="main-form">
-      <textarea placeholder="Faça sua pergunta..." id="pergunta" name="pergunta" rows="9" cols="70"
+      <textarea #pergunta placeholder="Faça sua pergunta..." id="pergunta" name="pergunta" rows="9" cols="70"
         (input)="verificarPergunta($event)" (input)="autoResize($event)"></textarea>
-      <app-main-button [descBotao]="'Revelar as cartas'" [disabled]="botaoDesativado" (clicked)="revelarCartas('teste')">
+      <app-main-button [descBotao]="'Revelar as cartas'" [disabled]="botaoDesativado" (clicked)="revelarCartas(pergunta.value)">
       </app-main-button>
     </form>
   </div>
