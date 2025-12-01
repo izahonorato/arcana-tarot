@@ -81,6 +81,21 @@ app-main-button{
   width: 100%;
 }
 
+footer{
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  color: silver;
+}
+
+a{
+  color: silver;
+}
+
 
   @media screen and (max-width: 650px) {
     .content {
